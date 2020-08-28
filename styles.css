@@ -3,11 +3,13 @@ body {
   height: 100%;
   width: 100%;
   display: flex;
-  justify-content: center;
+  justify-content: space-evenly;
   align-items: center;
 }
 
-#clock {
+#seconds,
+#minutes,
+#hours {
   width: 250px;
   height: 250px;
   background: green;
